@@ -14,10 +14,10 @@ function calcular() {
         resposta.innerHTML = `Insira um valor válido`;
     } else if (salario <= 806.80) {
         let resultado = filhos * 41.37;
-        resposta.innerHTML = `O salario familia do ${empregado} é de R$: ${resultado.toFixed(2)}`;
+        resposta.innerHTML = `O salario familia de ${empregado} é de R$: ${resultado.toFixed(2)}`;
     } else if (salario > 860.80 && salario <= 1212.64) {
         let resultado = filhos * 29.16;
-        resposta.innerHTML = `O salario familia do ${empregado} é de R$: ${resultado.toFixed(2)}`;
+        resposta.innerHTML = `O salario familia de ${empregado} é de R$: ${resultado.toFixed(2)}`;
     } else {
         resposta.innerHTML = `Salário fora do benefício`;
     }
